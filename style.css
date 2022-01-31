@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+   background-image: url(background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.conteiner{
+  width: 1000px;
+  margin: auto;
+
+}
+
+
+.box{
+  margin: auto;
+  margin-top: 10%;
+  width: 70%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+}
+
+
+.Contenitore{
+  width: 400px;
+  margin: auto;
+}
+
+
+.logo{
+  width: 200px;
+  margin-left: 25%;
+}
+
+
+div > h2{
+  text-align: center;
+  color: lime;
+}
+
+
+.barra{
+  margin: auto;
+  background-color: lime;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+
+button{
+  margin-left: 70px;
+}
+
+
+.Contenitore2{
+  margin: auto;
+  color: white;
+  width: 600px;
+  padding: 10px;
+}
+
+
+.arrow:before{
+  content: "\21A6";
+}
+
+
+.checkbox{
+  margin: 5px;
+}
+
+
+.charge{
+  background-color: orange;
+}
+
+
+.charge2{
+  background-color: lime;
+}
+
+
+.charge3{
+  background-color: crimson;
+}
+
+
+.charge, .charge2, .charge3{
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.fine{
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  margin: auto;
+
+}
+
+#made:hover{
+  background-color: red;
+  color: red;
+}
